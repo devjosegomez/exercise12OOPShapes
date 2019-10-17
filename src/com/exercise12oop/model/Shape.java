@@ -3,21 +3,21 @@ package com.exercise12oop.model;
 public class Shape implements Shapeable {
 
 	@Override
-	public void Draw() {
+	public String Draw() {
 		// TODO Auto-generated method stub
-		
+		return "Figure is being drawn";
 	}
 
 	@Override
-	public void ChangeColor() {
+	public String ChangeColor() {
 		// TODO Auto-generated method stub
-		
+		return "Figure color has been changed";
 	}
 
 	@Override
-	public void Erase() {
+	public String Erase() {
 		// TODO Auto-generated method stub
-		
+		return "Figure is being erased";
 	}
 
 	@Override
@@ -31,5 +31,6 @@ public class Shape implements Shapeable {
 		// TODO Auto-generated method stub
 		
 	}
+
 	
 }
