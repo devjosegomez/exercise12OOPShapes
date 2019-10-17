@@ -29,7 +29,7 @@ public class Circle extends Shape{
 		return Math.PI*(Math.pow(radio, 2));
 	}
 	
-	public double CalculatePerimeter(double base, double height, double hypotenuse) {
+	public double CalculatePerimeter(double radio) {
 		return 2*Math.PI*radio;
 	}
 	
