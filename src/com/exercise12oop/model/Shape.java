@@ -18,7 +18,7 @@ public class Shape implements Shapeable {
 	}
 
 	@Override
-	public double CalculateArea(double b, double h) {
+	public double CalculateArea() {
 		return 0;
 	}
 
