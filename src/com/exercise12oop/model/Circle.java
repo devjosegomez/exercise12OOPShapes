@@ -13,7 +13,7 @@ public class Circle extends Shape{
 	}
 	
 	
-	public double getRadio(double radio) {
+	public double getRadio() {
 		return radio;
 
 	}
