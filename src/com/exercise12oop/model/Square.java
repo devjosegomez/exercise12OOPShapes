@@ -11,6 +11,18 @@ public class Square extends Shape {
 		this.side = side;
 	}
 	
+	//getters and setters
+	
+	public double getSide() {
+		return side;
+	}
+	
+	public void setSide(double side) {
+		this.side = side;
+	}
+	
+	
+	//methods
 	public double CalculateArea(double side) {
 		return side*side;
 	}
