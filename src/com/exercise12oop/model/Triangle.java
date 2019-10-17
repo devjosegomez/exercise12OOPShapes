@@ -1,4 +1,5 @@
 package com.exercise12oop.model;
+import java.lang.Math;
 
 public class Triangle extends Shape{
 	private double base;
@@ -31,5 +32,14 @@ public class Triangle extends Shape{
 	
 	public void setHeight(double height) {
 		this.height = height;
+	}
+	
+	//methods
+	public double CalculateArea(double base, double height) {
+		return (base*height)/2;
+	}
+	
+	public double CalculatePerimeter(double base, double height, double hypotenuse) {
+		return Math.sqrt(Math.pow(base, 2)+Math.pow(height, 2));
 	}
 }
