@@ -31,6 +31,8 @@ public class ShapeApp {
 		circle1.setRadio(radio);
 		
 		System.out.println(circle1.CalculateArea(circle1.getRadio()));
+		
+		System.out.println(triangle1.area);
 	}
 
 }
