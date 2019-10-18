@@ -13,6 +13,7 @@ public class ShapeApp {
 		Square square1 = new Square();
 		Circle circle1 = new Circle();
 		Triangle triangle1 = new Triangle();
+		triangle1.area = 111.0;
 		
 		Square square2 = new Square(11.8);
 		Circle circle2 = new Circle(5.4);
